@@ -1,0 +1,140 @@
+h1{
+  font-family: montserrat-black;font-weight: 900;
+  font-size: 3.5ren;
+  line-height: 1.5;
+}
+h3{
+  font-family: montserrat-bold;
+}
+h2{
+  font-family: montserrat-bold;
+  font-size: 3rem;
+}
+p{
+  color: #8f8f8f;
+}
+body{
+  font-family: montserrat;
+  text-align: center;
+}
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+.navbar{
+  padding:0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: 'ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: montserrat-light;
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+  
+}
+.mac{
+  padding:  0 8px 0;
+}
+/* tittle image */
+
+#photo{
+  width: 50%;
+  transform: rotate(25deg);
+  position: relative;
+  margin: auto auto -10rem 50px ;
+  left: 30%;
+}
+#img-title-image{
+  position: relative;
+}
+/* feature-section */
+#features{
+  padding: 7%  15%;
+  background-color: #fff;
+ position: relative;
+ z-index: 1;
+}
+.feature-box{
+  text-align: center;
+}
+#heart{
+  width: 25%;
+  color: #ef8172;
+}
+#bullseye{
+  width: 25%;
+}
+#checkmark{
+  width: 25%;
+}
+/* testimonials */
+#testimonials{
+  
+  
+  background-color: #ef8172;
+  color: #fff;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px ;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+/* pricing section */
+#pricing{
+  padding: 100px;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+@media (max-width:1028px){
+  #title{
+    text-align: center;
+  }
+  #photo{
+     position: static;
+     transform: rotate(0);
+  }
+}
+ /* Call to Action  */
+ #cta{
+  background-color: #ff4c68;
+  margin-bottom: 2%;
+ }
+ #pcta{
+  font-family: montserrat-black;
+  font-weight: bold;
+  font-size: 5rem;
+  color: #fff;
+  padding: 5% 5% 0 5%;
+ }
+ /* footer */
+ #footer{
+  padding: 3% 3%;
+ }
+ .footer-img{
+  width: 18px;
+  margin: 3px;
+ }
